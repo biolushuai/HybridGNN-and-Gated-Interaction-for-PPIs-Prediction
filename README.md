@@ -1,6 +1,6 @@
 # GHADGI: Grpah hybrid Attention and Dynamic Gate Interaction for PPIs Prediction
 
-This repository is the implementation of 
+This repository is the implementation of our Paper under review.
 
 # Abstract
 Accurate prediction of protein-protein interaction (PPI) sites is crucial for advancing molecular biology and facilitating drug discovery.  While traditional experimental methods are reliable, they are often labor-intensive and time-consuming. Although deep learning-based approaches have been developed for this task, there is still a need for enhanced predictive accuracy.  To address this challenge, we propose GHADGI, a novel model that employs a Graph Hybrid Attention module for multi-view structural encoding and a Dynamic Gated Interaction mechanism for adaptive feature fusion. Our model is built on a parallel architecture that combines a Graph Hybrid Attention module for multi-view structural feature extraction and a Transformer module for capturing long-range dependencies. A dynamic gated interaction mechanism is introduced to enable bidirectional communication between these two branches, effectively fusing 3D structural and 1D sequential information. Additionally, we utilize a denoising autoencoder to refine high-dimensional embeddings from protein language models, thereby improving the quality of input features. Experimental evaluations on benchmark datasets demonstrate that GHADGI achieves competitive performance compared to existing state-of-the-art methods.
